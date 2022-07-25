@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 15px;
+}
+
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.botones{
+size: 50px 20px ;	
+}
+/* POP UP */
+
+	#pop{
+	display:none;
+	position: fixed;
+	max-width: 520px;
+	height: 300px;  
+	background-color: whitesmoke;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display:none;
+	position: fixed;
+	z-index: 1;
+	border: solid grey ;
+	border-radius: 15px;
+  }
+
+#informacion{
+	text-align: justify;
+	padding: 20px;
+}
+
+#cerrarInfo-btn{
+	padding: 7px;
+	text-align: center;
+	margin: auto 0;
+
+}
+
+#siguiente{
+	text-align: center;
+	padding: 20px;
+}
+
+#botoness{
+	text-align: center;
+}
+
