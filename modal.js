@@ -8,4 +8,5 @@ document.getElementById('cerrarInfo-btn').addEventListener('click', () => {
     pop.style.display = 'none'
 })
 
-/* no lo hize */
+/* no lo hize 
+no lo usé*/
